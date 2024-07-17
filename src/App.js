@@ -6,6 +6,24 @@ import Home from './pages/Home';
 import VideoForm from './pages/VideoForm';
 import './App.css';
 import useLocalStorage from './hooks/useLocalStorage';
+import React, { useState, useEffect } from 'react';
+
+function App() {
+  // Estado para los videos
+  const [videos, setVideos] = useState([]);
+
+  // Cargar los videos desde localStorage cuando el componente se monta
+  useEffect(() => {
+    const savedVideos = JSON.parse(localStorage.getItem('videos'));
+    if (savedVideos) {
+      setVideos(savedVideos);
+    }
+  }, []);
+
+  // Guardar los videos en localStorage cuando cambian
+  useEffect(() => {
+    localStorage.setItem('videos', JSON.stringify(videos));
+  }, [videos]);
 
 const App = () => {
   const [videos, setVideos] = useLocalStorage('videos', []);

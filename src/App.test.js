@@ -1,49 +1,8 @@
-import React, { useState } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import VideoForm from './pages/VideoForm';
-import { useLocalStorage } from './hooks/useLocalStorage';
-import './App.css';
+import { render, screen } from '@testing-library/react';
+import App from './App';
 
-const App = () => {
-  const [videos, setVideos] = useLocalStorage('videos', []);
-  const [editingVideo, setEditingVideo] = useState(null);
-
-  const handleSave = (video) => {
-    if (editingVideo) {
-      setVideos(videos.map((v) => (v === editingVideo ? video : v)));
-    } else {
-      setVideos([...videos, video]);
-    }
-    setEditingVideo(null);
-  };
-
-  const handleDelete = (video) => {
-    setVideos(videos.filter((v) => v !== video));
-  };
-
-  const handleEdit = (video) => {
-    setEditingVideo(video);
-  };
-
-  const handleCancel = () => {
-    setEditingVideo(null);
-  };
-
-  return (
-    <Router>
-      <div className="app">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Home videos={videos} onEdit={handleEdit} onDelete={handleDelete} />} />
-          <Route path="/nuevo-video" element={<VideoForm onSave={handleSave} onCancel={handleCancel} />} />
-        </Routes>
-        <Footer />
-      </div>
-    </Router>
-  );
-};
-
-export default App;
+test('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
