@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/AluraFlix/static/css/main.59c01bb6.css",
+    "main.js": "/AluraFlix/static/js/main.9aafb789.js",
+    "reactPlayerYouTube.js": "/AluraFlix/static/js/reactPlayerYouTube.384e2757.chunk.js",
+    "reactPlayerSoundCloud.js": "/AluraFlix/static/js/reactPlayerSoundCloud.c2a5f8a2.chunk.js",
+    "reactPlayerVimeo.js": "/AluraFlix/static/js/reactPlayerVimeo.0873fd51.chunk.js",
+    "reactPlayerMux.js": "/AluraFlix/static/js/reactPlayerMux.125b49fb.chunk.js",
+    "reactPlayerFacebook.js": "/AluraFlix/static/js/reactPlayerFacebook.2798c088.chunk.js",
+    "reactPlayerStreamable.js": "/AluraFlix/static/js/reactPlayerStreamable.c1800202.chunk.js",
+    "reactPlayerWistia.js": "/AluraFlix/static/js/reactPlayerWistia.20a05122.chunk.js",
+    "reactPlayerTwitch.js": "/AluraFlix/static/js/reactPlayerTwitch.ed43b66a.chunk.js",
+    "reactPlayerDailyMotion.js": "/AluraFlix/static/js/reactPlayerDailyMotion.de0b4183.chunk.js",
+    "reactPlayerMixcloud.js": "/AluraFlix/static/js/reactPlayerMixcloud.4ea1e507.chunk.js",
+    "reactPlayerVidyard.js": "/AluraFlix/static/js/reactPlayerVidyard.41310328.chunk.js",
+    "reactPlayerKaltura.js": "/AluraFlix/static/js/reactPlayerKaltura.1688817c.chunk.js",
+    "reactPlayerFilePlayer.js": "/AluraFlix/static/js/reactPlayerFilePlayer.b85ff9ce.chunk.js",
+    "reactPlayerPreview.js": "/AluraFlix/static/js/reactPlayerPreview.dee5135d.chunk.js",
+    "index.html": "/AluraFlix/index.html",
+    "main.59c01bb6.css.map": "/AluraFlix/static/css/main.59c01bb6.css.map",
+    "main.9aafb789.js.map": "/AluraFlix/static/js/main.9aafb789.js.map",
+    "reactPlayerYouTube.384e2757.chunk.js.map": "/AluraFlix/static/js/reactPlayerYouTube.384e2757.chunk.js.map",
+    "reactPlayerSoundCloud.c2a5f8a2.chunk.js.map": "/AluraFlix/static/js/reactPlayerSoundCloud.c2a5f8a2.chunk.js.map",
+    "reactPlayerVimeo.0873fd51.chunk.js.map": "/AluraFlix/static/js/reactPlayerVimeo.0873fd51.chunk.js.map",
+    "reactPlayerMux.125b49fb.chunk.js.map": "/AluraFlix/static/js/reactPlayerMux.125b49fb.chunk.js.map",
+    "reactPlayerFacebook.2798c088.chunk.js.map": "/AluraFlix/static/js/reactPlayerFacebook.2798c088.chunk.js.map",
+    "reactPlayerStreamable.c1800202.chunk.js.map": "/AluraFlix/static/js/reactPlayerStreamable.c1800202.chunk.js.map",
+    "reactPlayerWistia.20a05122.chunk.js.map": "/AluraFlix/static/js/reactPlayerWistia.20a05122.chunk.js.map",
+    "reactPlayerTwitch.ed43b66a.chunk.js.map": "/AluraFlix/static/js/reactPlayerTwitch.ed43b66a.chunk.js.map",
+    "reactPlayerDailyMotion.de0b4183.chunk.js.map": "/AluraFlix/static/js/reactPlayerDailyMotion.de0b4183.chunk.js.map",
+    "reactPlayerMixcloud.4ea1e507.chunk.js.map": "/AluraFlix/static/js/reactPlayerMixcloud.4ea1e507.chunk.js.map",
+    "reactPlayerVidyard.41310328.chunk.js.map": "/AluraFlix/static/js/reactPlayerVidyard.41310328.chunk.js.map",
+    "reactPlayerKaltura.1688817c.chunk.js.map": "/AluraFlix/static/js/reactPlayerKaltura.1688817c.chunk.js.map",
+    "reactPlayerFilePlayer.b85ff9ce.chunk.js.map": "/AluraFlix/static/js/reactPlayerFilePlayer.b85ff9ce.chunk.js.map",
+    "reactPlayerPreview.dee5135d.chunk.js.map": "/AluraFlix/static/js/reactPlayerPreview.dee5135d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.59c01bb6.css",
+    "static/js/main.9aafb789.js"
+  ]
+}
