@@ -1,0 +1,79 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card__video {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  margin-bottom: 16px;
+}
+
+.card__video img,
+.card__video iframe,
+.card__video video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+h3 {
+  margin-top: 10px; /* Espacio entre el video/imágen y el título */
+}
+
+p {
+  margin: 10px 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Espacio entre botones */
+  flex-wrap: wrap; /* Para que se ajusten en pantallas más pequeñas */
+}
+
+.button {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .button {
+    font-size: 12px;
+  }
+}
